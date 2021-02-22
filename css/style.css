@@ -1,0 +1,193 @@
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Principales / body
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+:root {
+    --fuentePrimaria: 'Playfair Display', serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+    --primario: #037bc0;
+    --secundario: #8cbc00;
+}
+body {
+    font-size: 1.5rem;
+    font-family: 'playfair Display', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 3rem;
+}
+.bg-primary {
+    background-color: #037bc0;
+}
+.bg-secundary {
+    background-color: #8cbc00;
+}
+small {
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Header
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+header .logo {
+    color: #000000;
+    text-shadow: .5px .5px 2px #000000;
+}
+header .logo:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 30px #000000;
+}
+header .logo h1 span {
+    font-weight: 600;
+    color: #037bc0;
+}
+header .navPrincipal .nav-item .nav-link {
+    color: #000000;
+    font-weight: 600;
+}
+header .navPrincipal .nav-item .nav-link:hover {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Background IMG 1
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.bg-img1 {
+    background: url(../img/principal.jpg) center center / cover;
+    height: 35rem;
+    margin-top: -1rem;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Categoria
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.category .category-title {
+    font-weight: 600;
+    text-shadow: .5px .5px 1px #000000;
+}
+.category .category-subtitle {
+    font-size: 2rem;
+    text-shadow: .5px .5px 1px #000000;
+    color: #000000;
+}
+.category .category-subtitle:hover {
+    text-shadow: .5px .5px 5px #000000;
+    color: #037bc0;
+}
+.category a{
+    text-decoration: none;
+}
+.category img{
+    transition: transform .6s ease;
+}
+.category img:hover {
+    transform: scale(1, .9);
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Sobre nosotros
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.nosotros-img {
+    background: url(../img/nosotros.jpg) center center / cover;
+    height: 35rem;
+}
+.nosotros-title {
+    font-weight: 600;
+}
+.nosotros p {
+    line-height: 1.8rem;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Sobre nosotros
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.productos-title {
+    font-weight: 600;
+    text-shadow: .5px .5px 1px #000000;
+}
+.productos-title1 {
+    font-weight: 500;
+}
+.productos-price {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.productos-carrito {
+    font-weight: 900;
+    font-size: 1rem;
+    border-color: #8cbc00!important;
+}
+.productos-carrito:hover {
+    box-shadow: 0px 0px 5px #000000;
+    color: #ffffff!important;
+}
+a.text-light:focus,
+a.text-light:hover {
+    color: #ffffff!important;
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+                                     Footer
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.footerF .footerF-title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.footerF .nav .nav-link {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+.footerF .nav .nav-link:hover {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
